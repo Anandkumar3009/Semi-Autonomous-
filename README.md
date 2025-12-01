@@ -35,9 +35,9 @@ This repository contains the complete perception pipeline developed for real-tim
 * Outputs dense inverse-depth maps
 * Upsampled to match RGB frame resolution
 * Depth → Distance conversion:
-``` D = Dmin + (1 - d_rel) * (Dmax - Dmin)
-Dmin = 0.5m
-Dmax = 20m ```
+> D = Dmin + (1 - d_rel) * (Dmax - Dmin)
+> Dmin = 0.5m
+> Dmax = 20m 
 
 
 
